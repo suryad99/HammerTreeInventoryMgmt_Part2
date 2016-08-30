@@ -1,0 +1,5 @@
+D:\work\HammerTreeInventoryMgmt\Hammer.Data.BusinesssModel\bin\Debug\Hammer.Data.BusinesssModel.dll
+D:\work\HammerTreeInventoryMgmt\Hammer.Data.BusinesssModel\bin\Debug\Hammer.Data.BusinesssModel.pdb
+D:\work\HammerTreeInventoryMgmt\Hammer.Data.BusinesssModel\obj\Debug\Hammer.Data.BusinesssModel.csprojResolveAssemblyReference.cache
+D:\work\HammerTreeInventoryMgmt\Hammer.Data.BusinesssModel\obj\Debug\Hammer.Data.BusinesssModel.dll
+D:\work\HammerTreeInventoryMgmt\Hammer.Data.BusinesssModel\obj\Debug\Hammer.Data.BusinesssModel.pdb

@@ -1,0 +1,97 @@
+﻿@{
+    ViewBag.Title = "Category Page";
+}
+
+<div class="jumbotron">
+
+</div>
+<div class="row">
+    <div class="col-md-4 pull-right">
+        <button type="submit" class="btn btn-primary btnAction" id="btnAddCategory">
+            <i class="icon-user icon-white"></i> Add New Category
+        </button>
+    </div>
+</div>
+<div class="well">
+    <div id="divDataTableCat" class="top-buffer">
+        <table class="table table-striped table-responsive" id="tblHammersCat">
+            <thead>
+
+                <tr>
+                    <th></th>
+                    <th class="gaf-link-color-black">
+                        <a id="thCatCategory" title="Name" href="#" class="gaf-link-color-black">Category</a>
+                    </th>
+                    <th class="gaf-link-color-black">
+                        <a id="thCatDescription" title="Description" href="#" class="gaf-link-color-black">Description</a>
+                    </th>
+                    <th class="gaf-link-color-black">
+                        <a id="tdCatEditAction" title="Edit" href="#" class="gaf-link-color-black">Actions</a>
+                        <a id="tdCatDeleteAction" title="Delete" href="#" class="gaf-link-color-black"></a>
+                    </th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+</div>
+<div class="modal fade" id="PopUpNewCatDialog" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h2>Add New Category</h2>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-4"><label>Category</label></div>
+                    <div class="col-md-8">
+                        <input type="text" id="txtCategory"></input>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4"><label>Description</label></div>
+                    <div class="col-md-8">
+                        <textarea id="txtCatdesciption"></textarea>
+                    </div>
+
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" id="btnNewCatSave" class="btn btn-default" data-dismiss="modal">Save</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="PopUpUpdateCatDialog" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h2>Update Category</h2>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-4"><label>Category</label></div>
+                    <div class="col-md-8">
+                        <input type="text" id="txtCatCategory"></input>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4"><label>Description</label></div>
+                    <div class="col-md-8">
+                        <textarea id="txtCatdesciption"></textarea>
+                    </div>
+
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" id="btnCatUpdate" class="btn btn-default" data-dismiss="modal">Update</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+            </div>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,12 @@
+D:\work\HammerTreeInventoryMgmt\Hammer.Data.Repository\bin\Debug\Hammer.Data.Repository.dll.config
+D:\work\HammerTreeInventoryMgmt\Hammer.Data.Repository\bin\Debug\Hammer.Data.Repository.dll
+D:\work\HammerTreeInventoryMgmt\Hammer.Data.Repository\bin\Debug\Hammer.Data.Repository.pdb
+D:\work\HammerTreeInventoryMgmt\Hammer.Data.Repository\bin\Debug\EntityFramework.dll
+D:\work\HammerTreeInventoryMgmt\Hammer.Data.Repository\bin\Debug\EntityFramework.SqlServer.dll
+D:\work\HammerTreeInventoryMgmt\Hammer.Data.Repository\bin\Debug\Hammer.Data.BusinesssModel.dll
+D:\work\HammerTreeInventoryMgmt\Hammer.Data.Repository\bin\Debug\Hammer.Data.BusinesssModel.pdb
+D:\work\HammerTreeInventoryMgmt\Hammer.Data.Repository\bin\Debug\EntityFramework.xml
+D:\work\HammerTreeInventoryMgmt\Hammer.Data.Repository\bin\Debug\EntityFramework.SqlServer.xml
+D:\work\HammerTreeInventoryMgmt\Hammer.Data.Repository\obj\Debug\Hammer.Data.Repository.csprojResolveAssemblyReference.cache
+D:\work\HammerTreeInventoryMgmt\Hammer.Data.Repository\obj\Debug\Hammer.Data.Repository.dll
+D:\work\HammerTreeInventoryMgmt\Hammer.Data.Repository\obj\Debug\Hammer.Data.Repository.pdb

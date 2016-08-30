@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - HammerTree Inventory Management System</title>
+    @Styles.Render("~/Content/css")
+
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="navbar-collapse collapse menu" >
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("HAMMERS", "Index", "Home")</li>
+                    <li>@Html.ActionLink("CATEGORIES", "Category", "Category")</li>
+                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                </ul>
+                @*@Html.Partial("_LoginPartial")*@
+            </div>
+
+        </div>
+    </div>
+    <div>
+
+    </div>
+
+    <div class="container body-content">
+        <div>
+            <div class="logo">
+                <h1>HAMMER<span>&nbsp;LOGO</span></h1>
+            </div>
+            <div class="social">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="~/Content/Images/aim.png" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="~/Content/Images/facebook.png" alt="facebook" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="~/Content/Images/twwtter.png" alt="tiwwter" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="~/Content/Images/linkedin.png" alt="linkedin'" />
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>Copyright &copy; Hammer Company. All rights reserved.</p>
+        </footer>
+    </div>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="~/Scripts/bootstrap.js"></script>
+    <script src="~/Scripts/Home/Inventory.js"></script>
+    <script src="~/Scripts/Home/Category.js"></script>
+</body>
+</html>

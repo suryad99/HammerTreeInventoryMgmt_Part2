@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HammerTreeInventoryMgmt", "HammerTreeInventoryMgmt\HammerTreeInventoryMgmt.csproj", "{23FE6213-D531-4162-B307-58D4F0C371D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HammerTreeInventoryMgmt.Tests", "HammerTreeInventoryMgmt.Tests\HammerTreeInventoryMgmt.Tests.csproj", "{EB799C64-8416-4755-B930-364ABC969460}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hammer.Data.Repository", "Hammer.Data.Repository\Hammer.Data.Repository.csproj", "{E5832890-7FDB-40DC-AFF3-F5FE4211DFC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hammer.Data.BusinesssModel", "Hammer.Data.BusinesssModel\Hammer.Data.BusinesssModel.csproj", "{09D135F5-8C4E-4F6B-86EC-D36F02072A34}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23FE6213-D531-4162-B307-58D4F0C371D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23FE6213-D531-4162-B307-58D4F0C371D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23FE6213-D531-4162-B307-58D4F0C371D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23FE6213-D531-4162-B307-58D4F0C371D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB799C64-8416-4755-B930-364ABC969460}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB799C64-8416-4755-B930-364ABC969460}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB799C64-8416-4755-B930-364ABC969460}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB799C64-8416-4755-B930-364ABC969460}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5832890-7FDB-40DC-AFF3-F5FE4211DFC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5832890-7FDB-40DC-AFF3-F5FE4211DFC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5832890-7FDB-40DC-AFF3-F5FE4211DFC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5832890-7FDB-40DC-AFF3-F5FE4211DFC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09D135F5-8C4E-4F6B-86EC-D36F02072A34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09D135F5-8C4E-4F6B-86EC-D36F02072A34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09D135F5-8C4E-4F6B-86EC-D36F02072A34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09D135F5-8C4E-4F6B-86EC-D36F02072A34}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
